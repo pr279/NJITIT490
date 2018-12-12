@@ -1,0 +1,16 @@
+[05-Nov-2018 13:41:23 America/New_York] PHP Fatal error:  Failed to start request processor: AMQPConnectionException: Server connection error: 403, message: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile. - Potential login failure. in /home/lord-byron/git/rabbitmqphp_example/rabbitMQLib.inc:110
+Stack trace:
+#0 /home/lord-byron/git/rabbitmqphp_example/rabbitMQLib.inc(110): AMQPConnection->connect()
+#1 /home/lord-byron/git/rabbitmqphp_example/testRabbitMQServer.php(106): rabbitMQServer->process_requests('requestProcesso...')
+#2 {main} in /home/lord-byron/git/rabbitmqphp_example/rabbitMQLib.inc on line 132
+[05-Nov-2018 13:44:39 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'newuser'@'localhost' (using password: YES) in /home/lord-byron/git/rabbitmqphp_example/testRabbitMQServer.php on line 21
+[05-Nov-2018 13:44:39 America/New_York] PHP Warning:  doLogin(): Couldn't fetch mysqli in /home/lord-byron/git/rabbitmqphp_example/testRabbitMQServer.php on line 23
+[05-Nov-2018 13:44:39 America/New_York] PHP Notice:  Undefined variable: userName in /home/lord-byron/git/rabbitmqphp_example/testRabbitMQServer.php on line 33
+[05-Nov-2018 13:44:39 America/New_York] PHP Notice:  Undefined variable: userPass in /home/lord-byron/git/rabbitmqphp_example/testRabbitMQServer.php on line 33
+[05-Nov-2018 13:44:39 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/lord-byron/git/rabbitmqphp_example/testRabbitMQServer.php on line 33
+[05-Nov-2018 13:44:39 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/lord-byron/git/rabbitmqphp_example/testRabbitMQServer.php on line 34
+[05-Nov-2018 13:45:15 America/New_York] PHP Fatal error:  Failed to start request processor: AMQPException: Library error: unexpected protocol state in /home/lord-byron/git/rabbitmqphp_example/rabbitMQLib.inc:122
+Stack trace:
+#0 /home/lord-byron/git/rabbitmqphp_example/rabbitMQLib.inc(122): AMQPQueue->consume(Array)
+#1 /home/lord-byron/git/rabbitmqphp_example/testRabbitMQServer.php(106): rabbitMQServer->process_requests('requestProcesso...')
+#2 {main} in /home/lord-byron/git/rabbitmqphp_example/rabbitMQLib.inc on line 132
