@@ -51,9 +51,9 @@ function requestProcessor($request)
 	$message = writeError($request['error_string'], '/home/parthrana/git/rabbitmqphp_example/logging/rmqDatabase_error');
 	//echo "Results: " . $message;
 	break;
-    case "dmz":
+    case "backend":
 	echo "<br><br>DMZ: ";
-        $message = writeError($request['error_string'], '/home/parthrana/git/rabbitmqphp_example/logging/rmqDmz_error');
+        $message = writeError($request['error_string'], '/home/parthrana/git/rabbitmqphp_example/logging/rmqbackend_error');
 	//echo "Results: "; 
 	break;
     
@@ -65,7 +65,7 @@ function requestProcessor($request)
 
 
 //Connects rabbitMQServer using the error.ini which is strictly used for error logging
-$server = new rabbitMQServer("rabbitMQ_error.ini","testServer");
+$server = new rabbitMQServer("error.ini","testServer");
 
 echo "ErrorLogging BEGIN".PHP_EOL;
 $server->process_requests('requestProcessor');

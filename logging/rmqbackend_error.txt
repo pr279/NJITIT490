@@ -1,0 +1,25 @@
+[15-Dec-2018 17:37:03 America/New_York] PHP Fatal error:  Failed to start request processor: AMQPConnectionException: Socket error: could not connect to host. in /home/jkm34/git/Julio/rabbitMQLib.inc:110
+Stack trace:
+#0 /home/jkm34/git/Julio/rabbitMQLib.inc(110): AMQPConnection->connect()
+#1 /home/jkm34/git/Julio/testRabbitMQServer.php(101): rabbitMQServer->process_requests('requestProcesso...')
+#2 {main} in /home/jkm34/git/Julio/rabbitMQLib.inc on line 132
+[15-Dec-2018 17:37:03 America/New_York] PHP Fatal error:  Failed to start request processor: AMQPConnectionException: Socket error: could not connect to host. in /home/jkm34/git/Julio/rabbitMQLib.inc:110
+Stack trace:
+#0 /home/jkm34/git/Julio/rabbitMQLib.inc(110): AMQPConnection->connect()
+#1 /home/jkm34/git/Julio/testRabbitMQServer.php(101): rabbitMQServer->process_requests('requestProcesso...')
+#2 {main} in /home/jkm34/git/Julio/rabbitMQLib.inc on line 132
+[15-Dec-2018 17:37:03 America/New_York] PHP Fatal error:  Failed to start request processor: AMQPConnectionException: Socket error: could not connect to host. in /home/jkm34/git/Julio/rabbitMQLib.inc:110
+Stack trace:
+#0 /home/jkm34/git/Julio/rabbitMQLib.inc(110): AMQPConnection->connect()
+#1 /home/jkm34/git/Julio/testRabbitMQServer.php(101): rabbitMQServer->process_requests('requestProcesso...')
+#2 {main} in /home/jkm34/git/Julio/rabbitMQLib.inc on line 132
+[15-Dec-2018 17:37:03 America/New_York] PHP Fatal error:  Failed to start request processor: AMQPConnectionException: Socket error: could not connect to host. in /home/jkm34/git/Julio/rabbitMQLib.inc:110
+Stack trace:
+#0 /home/jkm34/git/Julio/rabbitMQLib.inc(110): AMQPConnection->connect()
+#1 /home/jkm34/git/Julio/testRabbitMQServer.php(101): rabbitMQServer->process_requests('requestProcesso...')
+#2 {main} in /home/jkm34/git/Julio/rabbitMQLib.inc on line 132
+[15-Dec-2018 17:37:03 America/New_York] PHP Fatal error:  Failed to start request processor: AMQPConnectionException: Socket error: could not connect to host. in /home/jkm34/git/Julio/rabbitMQLib.inc:110
+Stack trace:
+#0 /home/jkm34/git/Julio/rabbitMQLib.inc(110): AMQPConnection->connect()
+#1 /home/jkm34/git/Julio/testRabbitMQServer.php(101): rabbitMQServer->process_requests('requestProcesso...')
+#2 {main} in /home/jkm34/git/Julio/rabbitMQLib.inc on line 132

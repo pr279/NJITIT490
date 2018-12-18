@@ -45,7 +45,7 @@ file_put_contents("/home/parthrana/git/rabbitmqphp_example/logging/dbLog.txt", "
 //RMQ client function
 //Uses error.ini that is strictly used for error logging
 function createClientForRmq($request){
-        $client = new rabbitMQClient("rabbitMQ_error.ini", "testServer");
+        $client = new rabbitMQClient("error.ini", "testServer");
        
         if(isset($argv[1])){
             $msg = $argv[1];

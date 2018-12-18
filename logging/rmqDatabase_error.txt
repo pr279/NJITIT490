@@ -14,3 +14,60 @@ Stack trace:
 #0 /home/lord-byron/git/rabbitmqphp_example/rabbitMQLib.inc(122): AMQPQueue->consume(Array)
 #1 /home/lord-byron/git/rabbitmqphp_example/testRabbitMQServer.php(106): rabbitMQServer->process_requests('requestProcesso...')
 #2 {main} in /home/lord-byron/git/rabbitmqphp_example/rabbitMQLib.inc on line 132
+[15-Dec-2018 17:11:16 America/New_York] PHP Warning:  parse_ini_file(rabbitMQ_error.ini): failed to open stream: No such file or directory in /home/parthrana/git/rabbitmqphp_example/get_host_info.inc on line 17
+[15-Dec-2018 17:11:16 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 22
+[15-Dec-2018 17:11:16 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 23
+[15-Dec-2018 17:11:16 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 24
+[15-Dec-2018 17:11:16 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 25
+[15-Dec-2018 17:11:16 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 26
+[15-Dec-2018 17:11:16 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 35
+[15-Dec-2018 17:11:16 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 36
+[15-Dec-2018 17:11:16 America/New_York] PHP Fatal error:  Failed to start request processor: AMQPConnectionException: Socket error: could not connect to host. in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc:110
+Stack trace:
+#0 /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc(110): AMQPConnection->connect()
+#1 /home/parthrana/git/rabbitmqphp_example/rabbitMQErrorListener.php(71): rabbitMQServer->process_requests('requestProcesso...')
+#2 {main} in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 132
+[15-Dec-2018 17:11:24 America/New_York] PHP Warning:  parse_ini_file(rabbitMQ_error.ini): failed to open stream: No such file or directory in /home/parthrana/git/rabbitmqphp_example/get_host_info.inc on line 17
+[15-Dec-2018 17:11:24 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 22
+[15-Dec-2018 17:11:24 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 23
+[15-Dec-2018 17:11:24 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 24
+[15-Dec-2018 17:11:24 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 25
+[15-Dec-2018 17:11:24 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 26
+[15-Dec-2018 17:11:24 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 35
+[15-Dec-2018 17:11:24 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 36
+[15-Dec-2018 17:11:24 America/New_York] PHP Fatal error:  Failed to start request processor: AMQPConnectionException: Socket error: could not connect to host. in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc:110
+Stack trace:
+#0 /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc(110): AMQPConnection->connect()
+#1 /home/parthrana/git/rabbitmqphp_example/rabbitMQErrorListener.php(71): rabbitMQServer->process_requests('requestProcesso...')
+#2 {main} in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 132
+[15-Dec-2018 17:11:49 America/New_York] PHP Warning:  parse_ini_file(rabbitMQ_error.ini): failed to open stream: No such file or directory in /home/parthrana/git/rabbitmqphp_example/get_host_info.inc on line 17
+[15-Dec-2018 17:11:49 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 22
+[15-Dec-2018 17:11:49 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 23
+[15-Dec-2018 17:11:49 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 24
+[15-Dec-2018 17:11:49 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 25
+[15-Dec-2018 17:11:49 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 26
+[15-Dec-2018 17:11:49 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 35
+[15-Dec-2018 17:11:49 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 36
+[15-Dec-2018 17:11:49 America/New_York] PHP Fatal error:  Failed to start request processor: AMQPConnectionException: Socket error: could not connect to host. in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc:110
+Stack trace:
+#0 /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc(110): AMQPConnection->connect()
+#1 /home/parthrana/git/rabbitmqphp_example/rabbitMQErrorListener.php(71): rabbitMQServer->process_requests('requestProcesso...')
+#2 {main} in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 132
+[15-Dec-2018 17:13:09 America/New_York] PHP Warning:  parse_ini_file(rabbitMQ_error.ini): failed to open stream: No such file or directory in /home/parthrana/git/rabbitmqphp_example/get_host_info.inc on line 17
+[15-Dec-2018 17:13:09 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 22
+[15-Dec-2018 17:13:09 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 23
+[15-Dec-2018 17:13:09 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 24
+[15-Dec-2018 17:13:09 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 25
+[15-Dec-2018 17:13:09 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 26
+[15-Dec-2018 17:13:09 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 35
+[15-Dec-2018 17:13:09 America/New_York] PHP Notice:  Undefined index: testServer in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 36
+[15-Dec-2018 17:13:09 America/New_York] PHP Fatal error:  Failed to start request processor: AMQPConnectionException: Socket error: could not connect to host. in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc:110
+Stack trace:
+#0 /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc(110): AMQPConnection->connect()
+#1 /home/parthrana/git/rabbitmqphp_example/rabbitMQErrorListener.php(71): rabbitMQServer->process_requests('requestProcesso...')
+#2 {main} in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 132
+[15-Dec-2018 17:15:45 America/New_York] PHP Fatal error:  Failed to start request processor: AMQPConnectionException: Socket error: could not connect to host. in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc:110
+Stack trace:
+#0 /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc(110): AMQPConnection->connect()
+#1 /home/parthrana/git/rabbitmqphp_example/rabbitMQErrorListener.php(71): rabbitMQServer->process_requests('requestProcesso...')
+#2 {main} in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 132
