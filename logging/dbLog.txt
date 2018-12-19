@@ -8,3 +8,18 @@ Stack trace:
 #0 /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc(110): AMQPConnection->connect()
 #1 /home/parthrana/git/rabbitmqphp_example/rabbitMQErrorListener.php(71): rabbitMQServer->process_requests('requestProcesso...')
 #2 {main} in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 132
+[18-Dec-2018 17:35:13 America/New_York] PHP Fatal error:  Failed to start request processor: AMQPConnectionException: Socket error: could not connect to host. in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc:110
+Stack trace:
+#0 /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc(110): AMQPConnection->connect()
+#1 /home/parthrana/git/rabbitmqphp_example/rabbitMQErrorListener.php(71): rabbitMQServer->process_requests('requestProcesso...')
+#2 {main} in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 132
+[18-Dec-2018 17:52:11 America/New_York] PHP Fatal error:  Failed to start request processor: AMQPException: Library error: unexpected protocol state in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc:122
+Stack trace:
+#0 /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc(122): AMQPQueue->consume(Array)
+#1 /home/parthrana/git/rabbitmqphp_example/rabbitMQErrorListener.php(71): rabbitMQServer->process_requests('requestProcesso...')
+#2 {main} in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 132
+[18-Dec-2018 20:56:05 America/New_York] PHP Fatal error:  Failed to start request processor: AMQPConnectionException: Socket error: could not connect to host. in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc:110
+Stack trace:
+#0 /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc(110): AMQPConnection->connect()
+#1 /home/parthrana/git/rabbitmqphp_example/rabbitMQErrorListener.php(71): rabbitMQServer->process_requests('requestProcesso...')
+#2 {main} in /home/parthrana/git/rabbitmqphp_example/rabbitMQLib.inc on line 132
